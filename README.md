@@ -13,23 +13,27 @@
 
 <ol>
 
-<h4><li>HSLookup</li></h4>
-<img src="https://github.com/hafidzilkhairi/BasicNetworkProgramming/blob/task/Screenshots/HostLookup.png?raw=true"/>
+<h4><li>Installation</li></h4>
+<p>Clone repo ini, dan aplikasi dapat segera berjalan</p>
 
-<h4><li>Service Lookup</li></h4>
-<img src="https://github.com/hafidzilkhairi/BasicNetworkProgramming/blob/task/Screenshots/ServiceLookup.png?raw=true"/>
-
-<h4><li>Get Head Info</li></h4>
-<img src="https://github.com/hafidzilkhairi/BasicNetworkProgramming/blob/task/Screenshots/GetHeadInfo.png?raw=true"/>
-
-<h4><li>Raw Sockets and The IPConn Type</li></h4>
-<img src="https://github.com/hafidzilkhairi/BasicNetworkProgramming/blob/task/Screenshots/HostLookup.png?raw=true"/>
-
-<h4><li>Multi-Thread Server</li></h4>
-<img src="https://github.com/hafidzilkhairi/BasicNetworkProgramming/blob/task/Screenshots/5.MultithreadServer.png?raw=true"/>
-
-<h4><li>Multi-Thread Server</li></h4>
-<img src="https://github.com/hafidzilkhairi/BasicNetworkProgramming/blob/task/Screenshots/6.MultithreadServer.png?raw=true"/>
-
+<h4><li>Usage</li></h4>
+<ol>
+<li>HTTPWebApplicationCRUD</li>
+<p>
+<ul>
+<li>Pastikan terminal telah berada pada direktori aplikasi</li>
+<li>Ketik "go run server.go" untuk menjalankan</li>
+</ul>
+</p>
+<li>MQTT</li>
+<p>
+<ul>
+<li>Pastikan Mosquitto berjalan</li>
+<li>Jalankan Publisher terlebih dahulu dengan menjalankan perintah "go run publisher.go" pada direktori publisher</li>
+<li>Kemudian jalankan Publisher terlebih dahulu dengan menjalankan perintah "go run subscriber.go" pada direktori subscriber</li>
+<li>subscriber akan mendapatkan pesan yang telah di publish oleh publisher</li>
+</ul>
+</p>
+</ol>
 
 </ol>
